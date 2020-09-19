@@ -48,7 +48,7 @@ To run use this, colab link: [![Open In Colab](https://colab.research.google.com
 3. Using the label name(chocolate,soda etc,) we made a query on brocade api to get gtin-14 number( https://www.brocade.io/api/items?query=$query). Intially we selected first and second gtin number
 4. After getting the gtin-14 number we used atrify nutrient information api to get all the information about the product. Including fat, sugar, salt, allergence etc. 
 5. We built a Flask RESTful API web application to make things smooth
-6. But we failed to identify the brand name. Tought about applying OCR. Tried pytesseract. But accuracy is too low and then we tried AWS textract. Even the state of the art OCR engine failed to identify certain text. Then we move on with manual entry of brand name
+6. But we failed to identify the brand name. Thought about applying OCR. Tried pytesseract. But accuracy is too low and then we tried AWS textract. Even the state of the art OCR engine failed to identify certain text. Then we move on with manual entry of brand name
 # TO DO
 1. We tried to use the Holoselecta data provided by **autoidlabs**,which include 109 classed for custom object detection training using TensorFlow. But the 2.1 GB dataset is too much for Google colab. We dropped the plan due to this limitation.
 ![alt_text](https://github.com/kishorkuttan/grocery-nutrition-extraction-using-TensorFlow-and-atrify-api/blob/master/data.png)
