@@ -37,8 +37,8 @@ https://github.com/PhilJd/freiburg_groceries_dataset
 To train the model use this link : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1i8cx1MoZJ_nucTZ3jJz5ftsXrknq4zNu?usp=sharing)
 
 # Run
-!alt_text](https://github.com/kishorkuttan/grocery-nutrition-extraction-using-TensorFlow-and-atrify-api/blob/master/main.png)
-!alt_text](https://github.com/kishorkuttan/grocery-nutrition-extraction-using-TensorFlow-and-atrify-api/blob/master/result_final.png)
+![alt_text](https://github.com/kishorkuttan/grocery-nutrition-extraction-using-TensorFlow-and-atrify-api/blob/master/main.png)
+![alt_text](https://github.com/kishorkuttan/grocery-nutrition-extraction-using-TensorFlow-and-atrify-api/blob/master/result_final.png)
 ## How we made it
 1. First we train our model on efficient_net and made a tflite model file
 2. Used it to make prediction on what is the grocery item is. ex: chocolate, soda etc.
