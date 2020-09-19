@@ -37,7 +37,7 @@ https://github.com/PhilJd/freiburg_groceries_dataset
 To train the model use this link : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1i8cx1MoZJ_nucTZ3jJz5ftsXrknq4zNu?usp=sharing)
 
 # Run
-To run use this, colab link: [![Open In Colab](https://colab.research.google.com/drive/1igsk90OEHhG6eQLhzyBFY5IeDtmu89Jq?usp=sharing)
+To run use this, colab link: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1igsk90OEHhG6eQLhzyBFY5IeDtmu89Jq?usp=sharing)
 
 ![alt_text](https://github.com/kishorkuttan/grocery-nutrition-extraction-using-TensorFlow-and-atrify-api/blob/master/main.png)
 ## Result
