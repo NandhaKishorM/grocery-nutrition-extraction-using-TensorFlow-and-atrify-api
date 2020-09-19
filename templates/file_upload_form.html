@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+<script type='text/javascript'>
+function preview_image(event) 
+{
+ var reader = new FileReader();
+ reader.onload = function()
+ {
+  var output = document.getElementById('output_image');
+  output.src = reader.result;
+ }
+ reader.readAsDataURL(event.target.files[0]);
+}
+</script>
+<style>
+body
+{
+ width:100%;
+ margin:0 auto;
+ padding:0px;
+ font-family:helvetica;
+ background-color:#0B3861;
+}
+#wrapper
+{
+ text-align:center;
+ margin:0 auto;
+ padding:0px;
+ width:995px;
+}
+#output_image
+{
+ max-width:300px;
+}
+</style>
+</head>
+<body>
+<br>
+</br>
+<div id="wrapper">
+<h1 style="font-size:120px;">Food Decoder</h1>
+
+<form action = "/success" method = "post" enctype="multipart/form-data"> 
+ <input type="file" name="file"  accept="image/*" onchange="preview_image(event)">
+ <img id="output_image"/>
+</br>
+<br>
+</br>
+<h2 style="color:red">Enter the brand name</h2>
+<form method="POST">
+    <input name="text">
+    <input type="submit">
+</form>
+</form>
+
+                
+</div>
+</body>
+</html>
