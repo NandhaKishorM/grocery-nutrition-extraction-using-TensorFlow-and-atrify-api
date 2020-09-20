@@ -50,7 +50,7 @@ To run use this, colab link: [![Open In Colab](https://colab.research.google.com
 5. We built a Flask RESTful API web application to make things smooth
 6. But we failed to identify the brand name. Thought about applying OCR. Tried pytesseract. But accuracy is too low and then we tried AWS textract. Even the state of the art OCR engine failed to identify certain text. Then we move on with manual entry of brand name
 # TO DO
-1. We tried to use the Holoselecta data provided by **autoidlabs**,which include 109 classed for custom object detection training using TensorFlow. But the 2.1 GB dataset is too much for Google colab. We dropped the plan due to this limitation.
+1. We tried to use the Holoselecta data provided by **autoidlabs**,which include 109 classes for custom object detection training using TensorFlow. But the 2.1 GB dataset is too much for Google colab. We dropped the plan due to this limitation.
 ![alt_text](https://github.com/kishorkuttan/grocery-nutrition-extraction-using-TensorFlow-and-atrify-api/blob/master/data.png)
 2. Training on object detection-SSD_Mobilenet_quantised model will helps to deploy offline mode on mobile application, Fast inference speed and much more.
 3. Customer can just take the photo of the grocery shelf and all the information can be accessed in an instance
